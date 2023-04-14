@@ -49,7 +49,7 @@ impl Plugin for WahPlugin
     fn get_info(&self) -> Info
     {
         Info {
-            name: "Wah".to_string(),
+            name: "WahVoice".to_string(),
             vendor: "Soma FX".to_string(),
             presets: 0,
             parameters: 1,
