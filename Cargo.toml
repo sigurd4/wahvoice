@@ -1,0 +1,15 @@
+[package]
+name = "wahvoice"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+vst = "0.3.0"
+array-init = "2.1.0"
+real_time_fir_iir_filters = "0.1.1"
+
+[lib]
+name = "wahvoice"
+crate-type = ["cdylib"]
